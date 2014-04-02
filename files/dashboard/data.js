@@ -1,0 +1,194 @@
+﻿$axure.loadCurrentPage({
+  "url":"dashboard.html",
+  "generationDate":new Date(1396130837011.79),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"0785f48cbbde4f86b9a2165ac8a410a9",
+    "type":"Axure:Page",
+    "name":"Dashboard",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"center",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"center",
+      "imageVerticalAlignment":"center",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"1eb79131ebb549a596453dc9cb348ef7",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":163,
+              "y":222},
+            "size":{
+              "width":193,
+              "height":58},
+            "cornerRadiusTopLeft":"5"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"351163f9614f48938d4aaa5f17c43e4b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":163,
+                  "y":222},
+                "size":{
+                  "width":193,
+                  "height":58},
+                "cornerRadiusTopLeft":"5"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open Admin in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"admin.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/dashboard/u0.png"}},
+{
+          "id":"e435d9b5e8394ba298351844d93c3ef2",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":547,
+              "y":222},
+            "size":{
+              "width":193,
+              "height":58},
+            "cornerRadiusTopLeft":"5"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c6eaa79c05d1431c8fe5842ba63ee78b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":547,
+                  "y":222},
+                "size":{
+                  "width":193,
+                  "height":58},
+                "cornerRadiusTopLeft":"5"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open MT in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"mt.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/dashboard/u2.png"}},
+{
+          "id":"0567ad14d27843dfb557bfbce3f2a152",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":354,
+              "y":222},
+            "size":{
+              "width":193,
+              "height":58}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"7a3c4919c28a4d3d85d8c09bf4ae8558",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":354,
+                  "y":222},
+                "size":{
+                  "width":193,
+                  "height":58}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open Operation in New Window/Tab",
+                      "target":{
+                        "targetType":"page",
+                        "url":"operation.html",
+                        "includeVariables":true},
+                      "linkType":"new"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/dashboard/u4.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "1eb79131ebb549a596453dc9cb348ef7":{
+      "scriptId":"u0"},
+    "351163f9614f48938d4aaa5f17c43e4b":{
+      "scriptId":"u1"},
+    "e435d9b5e8394ba298351844d93c3ef2":{
+      "scriptId":"u2"},
+    "c6eaa79c05d1431c8fe5842ba63ee78b":{
+      "scriptId":"u3"},
+    "0567ad14d27843dfb557bfbce3f2a152":{
+      "scriptId":"u4"},
+    "7a3c4919c28a4d3d85d8c09bf4ae8558":{
+      "scriptId":"u5"}}});
